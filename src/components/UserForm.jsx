@@ -1,6 +1,14 @@
 import { useEffect } from "react";
 import { useState } from "react";
 
+/**
+ * UserForm Component:
+ * A form for adding or editing a user's information.
+ *
+ * @param {Object} user - The user data to be edited (if available).
+ * @param {Function} onSubmit - Callback function to handle form submission.
+ */
+
 export const UserForm = ({ onSubmit, user }) => {
   const [formData, setFormData] = useState({
     username: "",
@@ -79,7 +87,7 @@ export const UserForm = ({ onSubmit, user }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-md p-6"
+      className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-md p-6 sm:w-3/4 md:w-1/2 lg:w-1/3"
     >
       <div className="mb-4">
         <label

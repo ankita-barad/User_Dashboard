@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom";
 
+/**
+ * UserCard Component:
+ * Displays information about a user in a card format.
+ * Provides options to edit or delete the user.
+ *
+ * @param {Object} user - The user data to be displayed.
+ * @param {Function} handleDeleteClick - Callback function to handle the delete action.
+ */
+
 export const UserCard = ({ user, handleDeleteClick }) => {
   const { id, name, username, email, company } = user;
 
@@ -10,7 +19,7 @@ export const UserCard = ({ user, handleDeleteClick }) => {
         <p className="text-gray-600">ID: {id}</p>
         <p className="text-gray-600">Username: {username}</p>
         <p className="text-gray-600">Email: {email}</p>
-        <p className="text-gray-600">Company: {company.name}</p>
+        <p className="text-gray-600">Department: {company.name}</p>
 
         <div className="flex mt-4">
           <Link to={`/${id}/edit`}>
