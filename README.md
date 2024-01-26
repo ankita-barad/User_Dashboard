@@ -3,7 +3,7 @@
 UserDashboard App simplifies user management with intuitive CRUD operations, 
 offering an efficient way to organize and interact with user data
 
-#UserDashboard Features
+# User Dashboard Features
 
 - User List: View a comprehensive list of users.
 - Add New User: Easily add new users to the dashboard.
@@ -34,7 +34,7 @@ Follow these simple steps to get UserDashboard up and running on your local mach
 2. Install dependencies using pnpm
    ```bash
    pnpm install
-
+   
 3. Start the development server with Vite
   ```bash
   pnpm dev
