@@ -12,7 +12,7 @@ offering an efficient way to organize and interact with user data
 - Responsiveness: Enjoy a consistent user experience across different devices.
 - Pagination: Efficiently navigate through user records.
 
-##Tech Stack
+# Tech Stack
 
 #Frontend
 
