@@ -14,12 +14,12 @@ offering an efficient way to organize and interact with user data
 
 # Tech Stack
 
-#Frontend
+# Frontend
 
 - React
 - Tailwind CSS
 
-#Backend
+# Backend
 [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) for mock backend data.
 
 
